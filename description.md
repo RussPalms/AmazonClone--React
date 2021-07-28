@@ -14,3 +14,10 @@ Credentials do not work if API is not enabled. In my case the next steps were ne
 -   Enter 'People'
 -   From the result choose 'Google People API'
 -   Click 'Enable'
+
+-> yarn add stripe @stripe/stripe-js
+-> yarn add axios
+-> yarn add micro firebase-admin
+-> yarn add moment
+-> ./stripe login
+-> ./stripe listen --forward-to localhost:3000/api/webhook
