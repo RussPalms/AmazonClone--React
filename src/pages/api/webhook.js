@@ -1,6 +1,5 @@
 import { buffer } from "micro";
 import * as admin from "firebase-admin";
-import { Stripe } from "stripe";
 
 // secure our connection to FIREBASE from the backend
 // this is how we authenticate our admin
