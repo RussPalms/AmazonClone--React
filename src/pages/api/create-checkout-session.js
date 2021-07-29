@@ -1,5 +1,5 @@
 // this is our backend endpoint for the checkout
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+const stripe = require("stripe")(`${process.env.STRIPE_SECRET_KEY}`);
 
 // this is going to be called once we hit this endpoint
 export default async (req, res) => {
